@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Fond" style="background-image: url(&apos;project://database/Assets/image/KratosFond.jpg?fileID=2800000&amp;guid=abd373db159332c4fb0b3c8d140f877d&amp;type=3#KratosFond&apos;);">
+        <ui:VisualElement name="Entete">
+            <ui:Label text="Fallen GODS" display-tooltip-when-elided="true" name="NomDeJeux" style="left: 491px; font-size: 51px; color: rgb(0, 252, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="body" style="justify-content: space-around; width: 1339px; height: 962px;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="BtnPlay" style="height: 319px; background-image: url(&apos;project://database/Assets/image/kratos.gif?fileID=2800000&amp;guid=a8885e221e4617842b58f3c8e94c1fd0&amp;type=3#kratos&apos;); justify-content: flex-end; left: 946px; top: 360px; right: 566px; white-space: nowrap; width: 300px; background-color: rgba(88, 88, 88, 0); font-size: 40px; bottom: -177px; -unity-text-align: middle-center; -unity-font-style: italic; letter-spacing: 68px; word-spacing: 5px; -unity-paragraph-spacing: 15px;" />
+            <ui:Button text="Leave" display-tooltip-when-elided="true" name="BtnQuit" style="width: 300px; height: 300px; left: 0; top: 8px; right: 348px; bottom: 0; background-image: url(&apos;project://database/Assets/image/quitter.png?fileID=2800000&amp;guid=cd64eda1e1c90d24ca70d9d35ed34316&amp;type=3#quitter&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); opacity: 1; display: flex; background-color: rgba(188, 72, 72, 0); -unity-slice-left: 249; -unity-slice-top: 249; -unity-slice-right: 249; -unity-slice-bottom: 249; font-size: 40px; letter-spacing: 28px; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
